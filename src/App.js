@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Greet } from './components/Greet';
-import Welcome from './components/Welcome'
-
+import Welcome from './components/Welcome';
+import JSXComponent from './components/JSXComponent';
 
 class App extends Component {
   render() {
@@ -11,6 +11,7 @@ class App extends Component {
       <div className="App">
         <Greet />
         <Welcome />
+        <JSXComponent />
       </div>
       // <div className="App">
       //   <header className="App-header">
